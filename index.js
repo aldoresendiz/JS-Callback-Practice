@@ -10,7 +10,7 @@ character.style.zIndex = 1;
 function handleDirectionChange(direction) {
     /* After making sure everything works per specifications, I refactored the code to use a ternary conditional operator. 
     This way we accomplish the same functionality with only one line of code */
-    character.src = ('assets/green-character/' + (direction === null ? 'static' : `${direction}`) + '.gif');
+    character.src = 'assets/green-character/' + (direction === null ? 'static' : `${direction}`) + '.gif';
     // console.log(character.src);
     // if (direction === null) {
     //     character.src = 'assets/green-character/static.gif';
